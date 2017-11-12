@@ -1,0 +1,32 @@
+.team {
+  background-color: #ffffff;
+  padding: 105px 0 105px;
+  &__title {
+    @include title;
+  }
+  &__decripton {
+    @include description;
+  }
+  &__slider-clause {
+    display: flex !important;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    height: 364px;
+    padding-bottom: 20px;
+  }
+  &__slider-info {
+    overflow: auto;
+    text-align: right;
+    height: 364px;
+  }
+  &__slider-header {
+    @include slider-header;
+  }
+  &__slider-subtitle {
+    @include slider-subtitle;
+  }
+  &__slider-description {
+    @include slider-description;
+  }
+}
+

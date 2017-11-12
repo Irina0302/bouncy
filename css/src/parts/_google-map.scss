@@ -1,0 +1,48 @@
+.google-map {
+  padding-top: 80px;
+  &__title {
+    @include title;
+  }
+  &__description {
+    @include description;
+  }
+
+}
+#google-container {
+  position: relative;
+  width: 100%;
+  background-color: #e7eaf0;
+}
+
+@media only screen and (min-width: 768px) {
+  #google-container {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  #google-container {
+    height: 600px;
+  }
+}
+#google-map {
+  position: relative;
+}
+
+#google-map address {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 1em 1em;
+  color: black;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  #google-map address {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    text-align: center;
+  }
+}

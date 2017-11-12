@@ -1,0 +1,115 @@
+.header {
+  padding-top: 50px;
+  background-image: url(../../img/layer-1.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 220px;
+  }
+  &__logo {
+    width: 30%;
+    text-align: left;
+  }
+  &__menu {
+    width: 70%;
+  }
+  &__title {
+    margin: 0 auto 40px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    //line-height: 70px;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    /* Text style for "A, t vero" */
+    letter-spacing: 0.8px;
+    margin-bottom: 150px;
+  }
+  &__wrap {
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    background-color: #19bd9a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-scroll {
+      color: #ffffff;
+    }
+  }
+}
+//.show--nav .menu{
+//  display: block;
+//}
+//.humburger:focus{
+//  outline: none;
+//}
+//.humburger__line {,
+//  background-color: rgba(0,0,0,.1);
+//  height: 48px;
+//  width: 48px;
+//  position: relative;
+//  border: none;
+//}
+//.humburger__line {
+//  position: absolute;
+//  display: block;
+//  margin: auto;
+//  top: 48%;
+//  left: 15%;
+//  height: 3px;
+//  width: 70%;
+//  background-color: black;
+//  transition: all .2s ease-out;
+//}
+//.humburger--active .humburger__line--top {
+//  transform: rotate(45deg);
+//  top: 48%;
+//
+//}
+//
+//.humburger--active .humburger__line--middle {
+//  opacity: 0;
+//}
+//
+//humburger--active .humburger__line--bottom {
+//  transform: rotate(-45deg);
+//  top: 48%;
+//}
+//
+//.humburger__line--top {
+//  top: 23%
+//}
+//
+//.humburger__line--bottom {
+//  top: 73%
+//}
+//menu {
+//  display: none;
+//  &menu__item {
+//    position: relative;
+//    display: block;
+//  }
+//}
+//@media screen {
+//  min-width: 1024px;
+//  display: inline-block;
+//  padding: 0 50px;
+//}

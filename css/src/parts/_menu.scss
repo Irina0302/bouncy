@@ -1,0 +1,32 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+  &__item {
+    padding-right: 30px;
+  }
+  &__item:last-child {
+    padding-right: 0;
+  }
+  &__link {
+    font-family: $font-family-one;
+    font-size: $menu-font-size;
+    color: $white-color;
+    text-decoration: none;
+    line-height: 12px;
+    border: solid 1px transparent;
+    border-radius: 18px;
+    transition: all 0.5s linear 0.1s;
+    &:hover {
+      border: solid 2px  $white-color;
+      border-radius: 18px;
+      padding: 5px 5px;
+
+
+    }
+  }
+
+
+}

@@ -1,0 +1,72 @@
+@mixin title {
+  margin: 0 auto 40px;
+  text-align: center;
+  color: #333b46;
+  font-family: $font-family-one;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 12px;
+  text-transform: uppercase;
+  /* Text style for "THE TEAM" */
+  letter-spacing: 4px;
+}
+@mixin description {
+  width: 457px;
+  color: #81868e;
+  font-family: $font-family-one;
+  text-align: center;
+  margin: 0 auto 85px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  /* Text style for "A, t vero" */
+  letter-spacing: 0.7px;
+}
+@mixin for-btn-portfolio {
+  background-color: #f3f3f3;
+  padding: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+  color: $color-for-btn-portfolio;
+  font-family: $font-family-one;
+  font-size: 16px;
+  line-height: 12px;
+}
+@mixin for-btn-portfolio-hover {
+  background: #19bd9a;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: white;
+  transform: translateY(-7px);
+}
+@mixin slider-header {
+  padding: 18px 14px 0 0;
+  margin: 0;
+  color: #464646;
+  font-family: $font-family-one;
+  font-size: 20px;
+  /* Text style for "Abdullah N" */
+  letter-spacing: 0.8px;
+}
+
+@mixin slider-subtitle {
+  padding: 5px 15px 20px 0;
+  color: #81868e;
+  font-family: $font-family-one;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+  text-transform: uppercase;
+  /* Text style for "Creative D" */
+  letter-spacing: 1.4px;
+}
+@mixin slider-description {
+  padding: 0 15px 0 310px;
+  color: #81868e;
+  font-family: $font-family-one;
+  font-size: 14px;
+  line-height: 25px;
+  /* Text style for "A, t vero" */
+  letter-spacing: 0.7px;
+}
