@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d6911d9-dc13-4cdf-b051-0b0257ffdcb5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/scroll.js" afterPath="$PROJECT_DIR$/script/scroll.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -41,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -54,7 +52,7 @@
       <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3723">
+            <state relative-caret-position="17">
               <caret line="219" column="6" lean-forward="false" selection-start-line="219" selection-start-column="6" selection-end-line="219" selection-end-column="6" />
               <folding />
             </state>
@@ -209,7 +207,7 @@
       <workItem from="1510512004347" duration="2052000" />
       <workItem from="1510514565401" duration="618000" />
       <workItem from="1510524371485" duration="2880000" />
-      <workItem from="1510527714002" duration="650000" />
+      <workItem from="1510527714002" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="maps">
       <created>1510525704368</created>
@@ -218,14 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510525704368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="scroll">
+      <created>1510528402761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510528402763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113232000" />
+    <option name="totallyTimeSpent" value="113418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17352942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -256,7 +261,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maps" />
-    <option name="LAST_COMMIT_MESSAGE" value="maps" />
+    <MESSAGE value="scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="scroll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,19 +634,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/map.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3723">
-          <caret line="219" column="6" lean-forward="false" selection-start-line="219" selection-start-column="6" selection-end-line="219" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,15 +656,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/script/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="219" column="6" lean-forward="false" selection-start-line="219" selection-start-column="6" selection-end-line="219" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
